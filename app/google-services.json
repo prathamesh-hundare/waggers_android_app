@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "813064264475",
+    "project_id": "waggers-bf498",
+    "storage_bucket": "waggers-bf498.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813064264475:android:c4c360636541408f00d1be",
+        "android_client_info": {
+          "package_name": "com.example.adminpanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813064264475-c6vl40b53ptjacdal3r4v075vcgr7111.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoc0gGAiEJyITupvK7FlF197yud6qSw_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813064264475-c6vl40b53ptjacdal3r4v075vcgr7111.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
