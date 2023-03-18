@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null){
             //Sign In Directly
-            startActivity(new Intent(MainActivity.this,afterlogin.class));
+//            startActivity(new Intent(MainActivity.this,afterlogin.class));
         }
         else{
 

@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "813064264475",
+    "firebase_url": "https://waggers-bf498-default-rtdb.firebaseio.com",
     "project_id": "waggers-bf498",
     "storage_bucket": "waggers-bf498.appspot.com"
   },
@@ -14,7 +15,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "813064264475-c6vl40b53ptjacdal3r4v075vcgr7111.apps.googleusercontent.com",
+          "client_id": "813064264475-if6chojl5vcs9av0e2b478hq8nsajkup.apps.googleusercontent.com",
           "client_type": 3
         }
       ],

@@ -34,7 +34,7 @@ public class afterlogin extends AppCompatActivity {
     public void onClick(View v){
         switch (v.getId()){
             case R.id.logout:
-                startActivity(new Intent(afterlogin.this,MainActivity.class));
+                finish();
                 break;
             case R.id.imageView:
                 startActivity(new Intent(afterlogin.this,addRemoveWalker.class));
