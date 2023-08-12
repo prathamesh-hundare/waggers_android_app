@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AdminPanel</string>
+    <string name="app_name">Waggers</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -9,4 +9,62 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <!--Titles-->
+    <string name="first_slide_title">Search Your Location</string>
+    <string name="second_slide_title">Book A Walker</string>
+    <string name="third_slide_title">Contact and pay walker</string>
+    <string name="fourth_slide_title">Sit Back And Enjoy</string>
+
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">You can search any place nearby or with-in the specified city. We will display specific or all walkers available at that time. </string>
+    <string name="second_slide_desc">We provide almost all the numbers of all walkers registered with us. You can perform bookings as well.</string>
+    <string name="third_slide_desc">We provide contacts of nearby walkers to you and then you are just a step away from being tension free.</string>
+    <string name="fourth_slide_desc">We will handle everything for you. As you have the app in your pocket then you dont have to worry about anything.  </string>
+
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+    <!-- Strings for Dashboard -->
+
+    <!--Categories -->
+    <string name="training">Training</string>
+    <string name="walking">Walking</string>
+    <string name="petcare">Overnight</string>
+
+    <!--Titles and Descriptions-->
+    <string name="offers">All the OFFERS you need.!</string>
+    <string name="tc">*Terms and Conditions Apply :(</string>
+    <string name="reviews">Reviews about waggers.</string>
+    <string name="contact">Contact Us</string>
+    <string name="view_all">View All</string>
+    <string name="search_text">View All</string>
+
+    <!--Reviews-->
+    <string name="review1">"Waggers is a convenient and reliable app for dog owners who need a trusted walker for their furry friend."</string>
+    <string name="review2">"The app is user-friendly and the walkers are professional and attentive to the dogs needs."</string>
+    <string name="review3">"Waggers makes dog walking a breeze! The app's user-friendly interface and reliable service provide peace of mind for both dogs and their owners."
+</string>
+    <string name="review4">"Their professional and reliable walkers ensure that your furry friend gets the exercise and attention they need while you're away."</string>
+
+
+    <!--ids-->
+    <string name="insta">"waggers_india"</string>
+    <string name="twitter">"@waggers_twits"</string>
+    <string name="gmail">"waggers.walkers@gmail.com"</string>
+
+    <!--drawer menu-->
+    <string name="home">"Home"</string>
+    <string name="walkingm">"Book Walker"</string>
+    <string name="trainingm">"Training"</string>
+    <string name="petcarem">"Pet Care"</string>
+    <string name="login">"Login"</string>
+    <string name="logout">"Logout"</string>
+    <string name="profile">"Profile"</string>
+    <string name="share">"Share"</string>
+    <string name="rate">"Rate Us"</string>
+    <string name="slogan">"Everything your dog needs!"</string>
 </resources>

@@ -1,24 +1,28 @@
 package com.example.adminpanel;
 
 public class walkers {
-    String name;
-    String age;
+     String name;
+     String age;
     String phone;
+
+    walkers(){
+
+    }
 
     public walkers(String name,String age,String phone){
         this.name=name;
         this.age=age;
         this.phone=phone;
     }
-    public String getName() {
+    public  String getName() {
         return name;
     }
 
-    public String getAge() {
+    public  String getAge() {
         return age;
     }
 
-    public String getPhone() {
+    public  String getPhone() {
         return phone;
     }
 }

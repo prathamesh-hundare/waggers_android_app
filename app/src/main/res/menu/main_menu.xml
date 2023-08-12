@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/home_icon"/>
+
+        <item
+            android:id="@+id/nav_walking"
+            android:title="@string/walkingm"
+            android:icon="@drawable/walkingf"/>
+
+        <item
+            android:id="@+id/nav_training"
+            android:title="@string/trainingm"
+            android:icon="@drawable/trainf"/>
+
+        <item
+            android:id="@+id/nav_petcare"
+            android:title="@string/petcarem"
+            android:icon="@drawable/menu_overnight_care"/>
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout"
+                    android:icon="@drawable/nav_logout"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Contact">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_insta"
+                    android:title="@string/insta"
+                    android:icon="@drawable/menu_insta"/>
+                <item
+                    android:id="@+id/nav_twitter"
+                    android:title="@string/twitter"
+                    android:icon="@drawable/menu_twitter"/>
+                <item
+                    android:id="@+id/nav_gmail"
+                    android:title="@string/gmail"
+                    android:icon="@drawable/menu_gmail"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Share">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="@string/share"
+                    android:icon="@drawable/send"/>
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="@string/rate"
+                    android:icon="@drawable/review"/>
+            </group>
+        </menu>
+    </item>
+</menu>
+

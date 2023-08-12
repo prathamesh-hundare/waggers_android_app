@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book_walker"
+    android:background="@color/light_white">
+
+
+    <RelativeLayout
+        android:id="@+id/backbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:layout_constraintBottom_toBottomOf="@id/backbar"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/back_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/bangers"
+            android:text="Book A WAGGER"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/dogImg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/backbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="130dp"
+        android:src="@drawable/happy_dog" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/acme"
+        android:text="Walkers Available at the Moment :"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/walkerCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/booking_form"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="18dp"
+        android:src="@drawable/footprint" />
+
+
+    <TextView
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/booking_form"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="-7dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="100dp"
+        android:layout_toEndOf="@id/booking_form"
+        android:drawableLeft="@drawable/warning_icon"
+        android:drawablePadding="5dp"
+        android:drawableTint="#FF0000"
+        android:fontFamily="@font/baloo"
+        android:text="Charges - 109 Rs./30min"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:id="@+id/booking_form"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <EditText
+            android:id="@+id/bwname"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/pastel1"
+            android:hint="Enter  your  name"
+            android:paddingLeft="10dp"
+            android:drawablePadding="15dp"
+            android:paddingRight="10dp"
+            android:fontFamily="@font/acme"
+            android:textColorHint="@color/dgrey"
+            android:drawableLeft="@drawable/name_icon"/>
+
+
+        <EditText
+            android:id="@+id/bwnumber"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/pastel1"
+            android:hint="Enter  your  contact  number"
+            android:paddingLeft="10dp"
+            android:drawablePadding="15dp"
+            android:paddingRight="10dp"
+            android:fontFamily="@font/acme"
+            android:textColorHint="@color/dgrey"
+            android:drawableLeft="@drawable/calling_icon"/>
+
+        <Button
+            android:id="@+id/bwdate"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/pastel1"
+            android:drawableLeft="@drawable/calendar_icon"
+            android:drawablePadding="15dp"
+            android:fontFamily="@font/acme"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="  Select Date"
+            android:textAlignment="textStart"
+            android:textColor="@color/dgrey"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/bwtime"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/pastel1"
+            android:text="  Select Time"
+            android:paddingLeft="10dp"
+            android:drawablePadding="15dp"
+            android:paddingRight="10dp"
+            android:fontFamily="@font/acme"
+            android:textColor="@color/dgrey"
+            android:textAlignment="textStart"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/time_icon"/>
+
+
+        <Button
+            android:id="@+id/bookbtn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:backgroundTint="@color/bookbutton"
+            android:layout_marginTop="8dp"
+            android:text="BOOK"
+            android:textSize="15sp"
+            android:fontFamily="@font/bangers"
+            android:textColor="@color/white"/>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
